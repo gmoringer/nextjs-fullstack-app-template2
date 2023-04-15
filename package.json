@@ -1,9 +1,11 @@
 {
   "name": "nextjs-fullstack-app-template2",
+  "author": "GM",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -18,6 +20,7 @@
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
+    "cross-env": "^7.0.3",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "typescript": "5.0.4"
